@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Google Forms Backend Server", "Google Forms Backend Server.njsproj", "{243DF339-A2AD-4F27-8698-EA6C0201D6EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{243DF339-A2AD-4F27-8698-EA6C0201D6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243DF339-A2AD-4F27-8698-EA6C0201D6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243DF339-A2AD-4F27-8698-EA6C0201D6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243DF339-A2AD-4F27-8698-EA6C0201D6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C119F78E-DD6F-4173-BDD4-D6DCE07E296E}
+	EndGlobalSection
+EndGlobal
