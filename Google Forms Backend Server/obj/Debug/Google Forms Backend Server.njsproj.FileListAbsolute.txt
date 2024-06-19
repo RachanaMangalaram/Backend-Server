@@ -1,0 +1,3 @@
+D:\Git Repos\Google Forms\Google-Forms-Backend-Server\Google Forms Backend Server\obj\Debug\Google Forms Backend Server.njsproj.AssemblyReference.cache
+D:\Git Repos\Google Forms\Google-Forms-Backend-Server\Google Forms Backend Server\obj\Debug\Google Forms Backend Server.njsproj.CoreCompileInputs.cache
+D:\Git Repos\Google Forms\Google-Forms-Backend-Server\Google Forms Backend Server\bin\Microsoft.NodejsTools.WebRole.dll
