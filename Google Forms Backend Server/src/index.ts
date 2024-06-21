@@ -16,12 +16,15 @@ app.get('/ping', (req, res) => {
 
 // /submit endpoint
 app.post('/submit', (req, res) => {
-    const { name, email, phone, github_link, stopwatch_time } = req.body;
-    const newSubmission = { name, email, phone, github_link, stopwatch_time };
-
+    const { Name, Email, PhoneNumber, GitHubLink, StopwatchTime } = req.body;
+    const newSubmission = { Name, Email, PhoneNumber, GitHubLink, StopwatchTime };
+    console.log(req.body)
     // Read the existing submissions
-    const submissions = JSON.parse(fs.readFileSync(dbFilePath, 'utf8'));
-
+    let submissions: any[] = [];
+    if (fs.existsSync(dbFilePath)) {
+        submissions = JSON.parse(fs.readFileSync(dbFilePath, 'utf8'));
+    }
+    console.log(submissions)
     // Add the new submission
     submissions.push(newSubmission);
 
